@@ -117,38 +117,38 @@
 
               <br>
 
-              <span class="section-content__header">Do moich obowiązków wchodzi:</span>
+              <span class="section-content__header">My main duties are:</span>
            
               <ul style="padding-left: 1rem;">
-                <li>   <span class="section-content__text--light">wspieranie bieżących projektów</span></li>
-                <li>   <span class="section-content__text--light">zapełnienie wspierania istniejącej bazy kodu w innych przeglądarkach</span></li>
-                <li>   <span class="section-content__text--light">planowanie i wdrażanie nowych projektów</span></li>
-                <li>   <span class="section-content__text--light">testowanie, głownie e2e z Cypress</span></li>
-                <li>   <span class="section-content__text--light">wprowadzenie nowych osób/code-review  -  front-end</span></li>
-                <li>   <span class="section-content__text--light">napisanie specyfikacji oraz instrukcji</span></li>
+                <li>   <span class="section-content__text--light">supporting current projects</span></li>
+                <li>   <span class="section-content__text--light">supporting continuously delivering consistent experiences across all browsers and devices</span></li>
+                <li>   <span class="section-content__text--light">planning and develop new projects</span></li>
+                <li>   <span class="section-content__text--light">testing, mainly e2e with Cypress</span></li>
+                <li>   <span class="section-content__text--light">mentor and help other developers when needed</span></li>
+                <li>   <span class="section-content__text--light">writing specifications and documentations</span></li>
               </ul>
 
               <br>
 
-              <span class="section-content__header">Dodatkowo miałem doświadczenie z:</span>
+              <span class="section-content__header">Additionally, I had experience with:</span>
            
               <ul style="padding-left: 1rem;">
-                <li>   <span class="section-content__text--light"> E-commerce, w tym Google analytics</span></li>
+                <li>   <span class="section-content__text--light"> E-commerce, mainly with Google analytics</span></li>
                 <li>   <span class="section-content__text--light">Wordpress</span></li>
               </ul>
 
               <br>
 
-              <span class="section-content__text--light">W pracy głównie miałem doświadczenie z back-end na podstawie Laravel / Node.js</span>
+              <span class="section-content__text--light">I've experience with Back-end based on Laravel / Node.js </span>
               <br>
-              <span class="section-content__text--light">Pracowałem z Agile(Kanban)-wym stylem pracy nad projektami</span>
+              <span class="section-content__text--light">Participated in agile processes (Kanban) to plan and deliver solutions</span>
               </span>
           </div>
         </div>
 
         <div class="section">
           <div class="section-headline">
-            <i class="section-headline__icon material-icons">trending_up</i>Moje silne strony to:
+            <i class="section-headline__icon material-icons">trending_up</i>My strengths are:
           </div>
 
           <div class="section-content">
@@ -157,12 +157,12 @@
             >
 
                 <ul style="padding-left: 1rem;">
-                <li>   <span class="section-content__text--light">napisane user-interfejsów wysokiej jakośći</span></li>
-                <li>   <span class="section-content__text--light">wysoka samoorganizacja</span></li>
-                <li>   <span class="section-content__text--light">umiejętność pracy w zespole</span></li>
-                <li>   <span class="section-content__text--light">umiejętność nauczania innych osób w ramach projektu</span></li>
-                <li>   <span class="section-content__text--light">planowanie zakresu roboty dla siebie oraz innych osób</span></li>
-                <li>   <span class="section-content__text--light">zapełnienie terminowego zakończenia projektów</span></li>
+                <li>   <span class="section-content__text--light">develop quality user interfaces based on established application standards</span></li>
+                <li>   <span class="section-content__text--light">hight self organization skills</span></li>
+                <li>   <span class="section-content__text--light">abillity to work in a team</span></li>
+                <li>   <span class="section-content__text--light">mentor and help other developers when needed</span></li>
+                <li>   <span class="section-content__text--light">conduct design and code reviews and provide feedback on UI, UX.</span></li>
+                <li>   <span class="section-content__text--light">define and develop standards and style guides to help the team</span></li>
               </ul>
             </span>
           </div>
@@ -212,7 +212,7 @@
         <div
           class="section">
           <div class="section-headline">
-            <i class="section-headline__icon material-icons">translate</i>Języki
+            <i class="section-headline__icon material-icons">translate</i>Lenguages
           </div>
 
           <div class="section-content-grid">

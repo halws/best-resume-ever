@@ -5,33 +5,29 @@ name:
   first: Nazar
   middle:
   last: Kotsyuba
-about: Ukończyłem studia na kierunku
-        "Technologie Internetowe" na
-        uczelni Akademii Finansów i Biznesu Vistula i
-        od prawie <b>4 lat</b> jestem zatrudniony w Ds.
-        IT w firmie Varid jako Front-end developer.
+about: I've finished a faculty of "Internet technology" at AFIB Vistula. Currently,
+       almost for a <b>4 years</b>, I'm employed as a Front-end developer at Varid company.
         <br> 
         <br> 
-        Od ponad 1 roku pracuje w trybie remote
+       From a more that 1 year working mainly remotely
         <br> 
         <br> 
-        Głównym jeżykiem programowanie u mnie jest JavaScript. 
-        Frameworkiem, z którym pracuje ponad 3 lata, jest <b>Vue.js(v2+)</b>
+        My lead programing language is JavaScript, and a framework I use the most - is <b>Vue. js (3+ years of experience with v2)</b>
         <br>
         <br>
-        Posiadam prawo jazdy kategorii B oraz <b>kartę pobytu</b> z dostępem do rynku pracy do <b>18.04.2024</b>
+        I also have driving license category B and <b>Residence Permit</b> for a work till <b>18.04.2024</b>
 position: Frontend Developer
 
 birth:
   year: 1997
-  location: Ukraina
+  location: Ukraine
 
 # you may add more experiences by duplicating the template
 
 experience:
 - company: Varid
   position: Frontend Developer
-  timeperiod: 3.7 lata
+  timeperiod: 3.7 years
   description: 
   website: 
 
@@ -108,29 +104,29 @@ hobbies:
 
 contributions:
 - name: 
-  description: Moim programistycznym zainterestowaniem jest Flutter framework
+  description: My programing interest is Flutter- the framework
 - name: 
-  description: Moim życiowym hobby jest turystuka rowerowa oraz tworzenie muzyki elektronicznej 
+  description: My hobby is bike tourism and creating of EDM music
 
 languages:
-- name: Angielski
-  level: Wysoki
-- name: Polski
-  level: Wysoki
-- name: Ukraiński
-  level: Ojczysty
-- name: Rosyjski
-  level: Bardzo wysoki
-- name: Hiszpański 
-  level: Podstawowy
+- name: English
+  level: Hight
+- name: Polish
+  level: Hight
+- name: Ukranian
+  level: Native
+- name: Russian
+  level: Very hight
+- name: Spanish 
+  level: Basic
 
 contact:
   email: kotsuyba@gmail.com
   phone: +48 720 850 315
   street: Mokotów
-  city: Warszawa
+  city: Warsaw
   website: 
   github: halws
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: pl
+lang: en
 `
