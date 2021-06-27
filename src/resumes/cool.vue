@@ -13,8 +13,8 @@
             {{ lang.about }}
           </div>
 
-          <div class="section-content section-content--plain">
-            {{ person.about }}
+          <div class="section-content section-content--plain" v-html="person.about">
+         
             <br/>
             <br/>
             {{ person.knowledge }}
@@ -58,9 +58,9 @@
               <i class="section-link__icon material-icons">mail</i>{{ person.contact.email }}
             </a>
 
-            <div class="section-link">
+            <a class="section-link link" :href="`tel:${person.contact.phone}`">
               <i class="section-link__icon material-icons">phone</i>{{ person.contact.phone }}
-            </div>
+            </a>
 
             <a
               v-if="person.contact.website"
@@ -100,12 +100,11 @@
           </div>
 
           <div class="section-content">
-            <a
+            <span
               v-for="(experience, index) in person.experience"
               :key="index"
               class="section-content__item"
-              :class="{ link: experience.website !== undefined}"
-              :href="experience.website">
+              >
 
               <span class="section-content__header">{{ experience.position }}</span>
               <span class="section-content__subheader">
@@ -115,32 +114,61 @@
 
               <div class="section-content__text">{{ experience.timeperiod }}</div>
               <span class="section-content__text--light">{{ experience.description }}</span>
-            </a>
+
+              <br>
+
+              <span class="section-content__header">Do moich obowiązków wchodzi:</span>
+           
+              <ul style="padding-left: 1rem;">
+                <li>   <span class="section-content__text--light">wspieranie bieżących projektów</span></li>
+                <li>   <span class="section-content__text--light">zapełnienie wspierania istniejącej bazy kodu w innych przeglądarkach</span></li>
+                <li>   <span class="section-content__text--light">planowanie i wdrażanie nowych projektów</span></li>
+                <li>   <span class="section-content__text--light">testowanie, głownie e2e z Cypress</span></li>
+                <li>   <span class="section-content__text--light">wprowadzenie nowych osób/code-review  -  front-end</span></li>
+                <li>   <span class="section-content__text--light">napisanie specyfikacji oraz instrukcji</span></li>
+              </ul>
+
+              <br>
+
+              <span class="section-content__header">Dodatkowo miałem doświadczenie z:</span>
+           
+              <ul style="padding-left: 1rem;">
+                <li>   <span class="section-content__text--light"> E-commerce, w tym Google analytics</span></li>
+                <li>   <span class="section-content__text--light">Wordpress</span></li>
+              </ul>
+
+              <br>
+
+              <span class="section-content__text--light">W pracy głównie miałem doświadczenie z back-end na podstawie Laravel / Node.js</span>
+              <br>
+              <span class="section-content__text--light">Pracowałem z Agile(Kanban)-wym stylem pracy nad projektami</span>
+              </span>
           </div>
         </div>
 
         <div class="section">
           <div class="section-headline">
-            <i class="section-headline__icon material-icons">school</i>{{ lang.education }}
+            <i class="section-headline__icon material-icons">trending_up</i>Moje silne strony to:
           </div>
 
           <div class="section-content">
-            <a
-              v-for="(education, index) in person.education"
+            <span
               class="section-content__item"
-              :key="index"
-              :class="{ link: education.website !== undefined}"
-              :href="education.website">
+            >
 
-              <span class="section-content__header"> {{ education.school }} </span>
-              <span class="section-content__subheader">{{ education.degree }}</span>
-              <span class="section-content__text"> {{ education.timeperiod }} </span>
-              <span class="section-content__text--light"> {{ education.description }} </span>
-            </a>
+                <ul style="padding-left: 1rem;">
+                <li>   <span class="section-content__text--light">napisane user-interfejsów wysokiej jakośći</span></li>
+                <li>   <span class="section-content__text--light">wysoka samoorganizacja</span></li>
+                <li>   <span class="section-content__text--light">umiejętność pracy w zespole</span></li>
+                <li>   <span class="section-content__text--light">umiejętność nauczania innych osób w ramach projektu</span></li>
+                <li>   <span class="section-content__text--light">planowanie zakresu roboty dla siebie oraz innych osób</span></li>
+                <li>   <span class="section-content__text--light">zapełnienie terminowego zakończenia projektów</span></li>
+              </ul>
+            </span>
           </div>
         </div>
 
-        <div
+        <!-- <div
           v-if="person.projects"
           class="section">
           <div class="section-headline">
@@ -157,13 +185,12 @@
               <span class="section-content__text"> {{ project.description }} </span>
             </a>
           </div>
-        </div>
+        </div> -->
 
         <div
-          v-if="person.contributions"
           class="section">
           <div class="section-headline">
-            <i class="section-headline__icon fa fa-heart"></i>{{lang.contributions}}
+            <i class="section-headline__icon material-icons">fitness_center</i>Hobby
           </div>
 
           <div class="section-content-grid">
@@ -181,6 +208,25 @@
             </a>
           </div>
         </div>
+
+        <div
+          class="section">
+          <div class="section-headline">
+            <i class="section-headline__icon material-icons">translate</i>Języki
+          </div>
+
+          <div class="section-content-grid">
+            <a
+              v-for="(contribution, index) in person.languages"
+              class="section-content__item-grid"
+              :key="index"
+          >
+              <span class="section-content__header"> {{ contribution.name }} </span>
+              <span class="section-content__text"> {{ contribution.level }} </span>
+              
+            </a>
+          </div>
+        </div>
       </div>
     </div>
 
@@ -189,16 +235,16 @@
 </template>
 
 <script>
-import Vue from 'vue';
-import { getVueOptions } from './options';
+import Vue from "vue";
+import { getVueOptions } from "./options";
 
-const name = 'cool';
+const name = "cool";
 
 export default Vue.component(name, getVueOptions(name));
 </script>
 
 <style lang="less" scoped>
-@accent-color: #34495E;
+@accent-color: #34495e;
 @banner-color: #42b883;
 @banner-height: 120px;
 @picture-size: 120px;
@@ -218,7 +264,7 @@ export default Vue.component(name, getVueOptions(name));
 
 .resume {
   position: relative;
-  font-family:'Roboto' !important;
+  font-family: "Roboto" !important;
   font-size: 0.9em;
 }
 
@@ -230,7 +276,7 @@ export default Vue.component(name, getVueOptions(name));
   width: @picture-size;
   border-radius: 50%;
   border: 5px solid @accent-color;
-  content: url('../../resume/id.jpg');
+  content: url("../../resume/id.jpg");
   z-index: 2;
 }
 
