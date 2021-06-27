@@ -2,36 +2,48 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
+  first: Nazar
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I"m just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Kotsyuba
+about: Ukończyłem studia na kierunku
+        "Technologie Internetowe" na
+        uczelni Akademii Finansów i Biznesu Vistula i
+        od prawie <b>4 lat</b> jestem zatrudniony w Ds.
+        IT w firmie Varid jako Front-end developer.
+        <br> 
+        <br> 
+        Od ponad 1 roku pracuje w trybie remote
+        <br> 
+        <br> 
+        Głównym jeżykiem programowanie u mnie jest JavaScript. 
+        Frameworkiem, z którym pracuje ponad 3 lata, jest <b>Vue.js(v2+)</b>
+        <br>
+        <br>
+        Posiadam prawo jazdy kategorii B oraz <b>kartę pobytu</b> z dostępem do rynku pracy do <b>18.04.2024</b>
+position: Frontend Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1997
+  location: Ukraina
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
-
-- company: Company B
+- company: Varid
   position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+  timeperiod: 3.7 lata
+  description: 
+  website: 
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
+# - company: Company B
+#   position: Frontend Developer
+#   timeperiod: January 2015 - December 2015
+#   description: Fulfillment of extremely important tasks.
+
+# - company: Company C
+#   position: Trainee
+#   timeperiod: March 2014 - December 2014
+#   description: Making coffee and baking cookies.
 
 education:
 - degree: Master of Arts
@@ -51,18 +63,31 @@ skills:
   level: 95
 - name: JavaScript
   level: 97
-- name: Node.js
+- name: Vue.js
   level: 93
-- name: Angular 2
+- name: Laravel
   level: 60
-- name: TypeScript
+- name: Node.js
   level: 80
-- name: ES.Next
+- name: Wordpress
   level: 70
-- name: Docker
+- name: Cypress
   level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: draw.io
+  level: 99
+- name: GIT
+  level: 99
+- name: Bootstrap
+  level: 99
+- name: InVision
+  level: 99
+- name: Figma
+  level: 99
+- name: Postman
+  level: 99
+- name: PuTTY
+  level: 99
+
 
 projects:
 - name: best-resume-ever
@@ -82,17 +107,30 @@ hobbies:
   url: https://example.com
 
 contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+- name: 
+  description: Moim programistycznym zainterestowaniem jest Flutter framework
+- name: 
+  description: Moim życiowym hobby jest turystuka rowerowa oraz tworzenie muzyki elektronicznej 
+
+languages:
+- name: Angielski
+  level: Wysoki
+- name: Polski
+  level: Wysoki
+- name: Ukraiński
+  level: Ojczysty
+- name: Rosyjski
+  level: Bardzo wysoki
+- name: Hiszpański 
+  level: Podstawowy
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: kotsuyba@gmail.com
+  phone: +48 720 850 315
+  street: Mokotów
+  city: Warszawa
+  website: 
+  github: halws
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
-lang: en
+lang: pl
 `

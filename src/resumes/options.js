@@ -18,7 +18,7 @@ function getVueOptions (name) {
         },
         computed: {
             lang () {
-                const defaultLang = this.terms.en;
+                const defaultLang = this.terms.pl;
                 const useLang = this.terms[this.person.lang];
 
                 // overwrite non-set fields with default lang
