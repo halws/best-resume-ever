@@ -212,7 +212,7 @@
         <div
           class="section">
           <div class="section-headline">
-            <i class="section-headline__icon material-icons">translate</i>Lenguages
+            <i class="section-headline__icon material-icons">translate</i>Languages
           </div>
 
           <div class="section-content-grid">
@@ -235,12 +235,12 @@
 </template>
 
 <script>
-import Vue from "vue";
-import { getVueOptions } from "./options";
+  import Vue from "vue";
+  import { getVueOptions } from "./options";
 
-const name = "cool";
+  const name = "cool";
 
-export default Vue.component(name, getVueOptions(name));
+  export default Vue.component(name, getVueOptions(name));
 </script>
 
 <style lang="less" scoped>
