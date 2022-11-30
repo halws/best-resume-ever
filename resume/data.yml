@@ -2,97 +2,131 @@
 # Any fields left unchanged, please delete so your resume is fully yours!
 
 name:
-  first: John
+  first: Nazar
   middle:
-  last: Doe
-about: Hi, my name is John Doe. I'm just about the most boring type of person you could
-       possibly imagine. I like collecting leaves from the tree in my back yard and documenting
-       each time I eat a peanut that is non-uniform. I am not a robot. Please hire me.
-position: Software Developer
+  last: Kotsyuba
+about: I graduated in "Internet technology" at AFIB Vistula.
+       Right now, for about a year and a half, I work at Applover Full-Stack Digital Agency.
+
+        <br>
+        <br>
+       My core programming language is JavaScript, and a framework I use the most - is Vue. J's. I can code in React as well.
+position: Frontend Developer
 
 birth:
-  year: 1990
-  location: New York
+  year: 1997
+  location: Ukraine
 
 # you may add more experiences by duplicating the template
 
 experience:
-- company: Company A
-  position: Developer
-  timeperiod: since January 2016
-  description: Programming and watching cute cat videos.
-  website: https://example.com
+- company: Applover Full-Stack Digital Agency
+  position: Technical Lead
+  timeperiod: August 2022 - Now(4 months)
+  description:
+  duties:
+    - supporting current projects
+    - partly working in React project
+    - mentoring and helping other developers when needed
+    - define and develop standards and style guides to help the team
+    - integrating specific technologies/solutions, for example oclif, Mockoon, Vitest
 
-- company: Company B
+- company: Applover Full-Stack Digital Agency
   position: Frontend Developer
-  timeperiod: January 2015 - December 2015
-  description: Fulfillment of extremely important tasks.
+  timeperiod: November 2021 - August 2022(10 months)
+  description:
+  duties:
+    - working in external teams with foreign based client
+    - developing SPA internal projects with Vue 3 and TypeScript
+    - writing specifications and documentations
+    - conducting design and code reviews and providing feedback on UI,UX.
 
-- company: Company C
-  position: Trainee
-  timeperiod: March 2014 - December 2014
-  description: Making coffee and baking cookies.
 
-education:
-- degree: Master of Arts
-  timeperiod: March 2012 - December 2013
-  description: Major in Hacking and Computer Penetration, University A, New York, USA.
-  website: https://example.com
+- company: Enaf
+  position: Frontend Developer
+  timeperiod: December 2017 - November 2021(4 years)
+  description:
+  website:
+  duties:
+    - developing core product with a composition of features separation with Vue 2
+    - supporting continuously delivering consistent experiences across all browsers and devices
+    - integration with APIs, and BE based on Laravel framework
+    - testing, mainly e2e with Cypress
 
-- degree: Bachelor of Science
-  timeperiod: March 2009 - December 2011
-  description: Major in Engineering, University B, Los Angeles, USA.
+
+# education:
+# - degree: Master of Arts
+#   timeperiod: March 2012 - December 2013
+#   description: Major in Hacking and Computer Penetration, University A, New York, USA.
+#   website: https://example.com
+
+# - degree: Bachelor of Science
+#   timeperiod: March 2009 - December 2011
+#   description: Major in Engineering, University B, Los Angeles, USA.
 
 # skill level goes from 0 to 100
 skills:
-- name: HTML5
-  level: 99
-- name: CSS3
-  level: 95
-- name: JavaScript
-  level: 97
-- name: Node.js
-  level: 93
-- name: Angular 2
-  level: 60
+- name: Vue.js (2,3)
 - name: TypeScript
-  level: 80
-- name: ES.Next
-  level: 70
-- name: Docker
-  level: 99
-knowledge: Also proficient in Adobe Photoshop and Illustrator, grew up bilingual
-  (English and Klingon).
+- name: Cypress
+- name: HTML5
+- name: CSS3
+- name: Sass
+- name: JavaScript
+- name: Vitest
+- name: Jest
+- name: Figma
+- name: oclif
+- name: React
+- name: Node.js
 
-projects:
-- name: best-resume-ever
-  platform: Vue
-  timeperiod: February 2016
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
-  url: https://github.com/salomonelli/best-resume-ever
+
+# projects:
+# - name: best-resume-ever
+#   platform: Vue
+#   timeperiod: February 2016
+#   description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes and create your best CV ever! Made with Vue and LESS.
+#   url: https://github.com/salomonelli/best-resume-ever
 
 # optional, not all resume templates have hobbies included
-hobbies:
-- name: Video Games
-  iconClass: fa fa-gamepad
-  url: https://example.com
+# hobbies:
+# - name: Video Games
+#   iconClass: fa fa-gamepad
+#   url: https://example.com
 
-- name: Drawing
-  iconClass: fa fa-pencil
-  url: https://example.com
+# - name: Drawing
+#   iconClass: fa fa-pencil
+#   url: https://example.com
 
-contributions:
-- name: best-resume-ever
-  description: 👔 💼 Build fast 🚀 and easy multiple beautiful resumes.
-  url: https://github.com/salomonelli/best-resume-ever
+# contributions:
+# - name:
+#   description: My programing interest is Flutter- the framework
+# - name:
+#   description: My hobby is bike tourism and creating of EDM music
+strengths:
+- ability to develop quality user interfaces with modern standard
+- hight self organization skills
+- good mentorship skills
+- ability to work in a big teams
+- ability to jump in a new technologies from scratch within a quick time
+
+languages:
+- name: English
+  level: B2
+- name: Polish
+  level: B2
+- name: Ukrainian
+  level: C2
+- name: Spanish
+  level: A1
 
 contact:
-  email: john.doe@email.com
-  phone: 0123 456789
-  street: 1234 Broadway
-  city: New York
-  website: johndoe.com
-  github: johnyD
+  email: kotsuyba@gmail.com
+  phone: +48 720 850 315
+  street: Mokotów
+  city: Warsaw
+  website:
+  github: halws
 # en, de, fr, pt, ca, cn, it, es, th, pt-br, ru, sv, id, hu, pl, ja, ka, nl, he, zh-tw, lt, ko, el, nb-no
 lang: en
 `
